@@ -1,0 +1,60 @@
+#services .text-two h1{
+  margin: 0 1.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  color: black;
+}
+#services .text-two p {
+  margin: 0 1.5rem;
+  margin-bottom: 4rem;
+  text-align: left;
+  color: black;
+}
+#about .therapy {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 2rem;
+  margin-top: 1.25rem;
+}
+
+
+#services .capilar{
+  width: 5rem;
+  height: 5rem;
+  justify-content: center;
+}
+#services .button-therapy{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--body-color);
+  border-bottom: 0.5rem solid #69B99D;
+}
+#services .button-cuts{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--body-color);
+  border-bottom: 0.5rem solid #69B99D;
+}
+#services .cuts{
+  width: 5rem;
+  height: 5rem;
+  justify-content: center;
+}
+#services .button-cuts{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-bottom: 0.5rem solid #69B99D;
+}
+#services {
+  border-bottom: 1px solid #e4e4e4;
+  
+}
+
+.text-two span{
+  color: var(--base-color);
+}

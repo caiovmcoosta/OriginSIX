@@ -24,6 +24,9 @@ nav {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
+.therapy{
+    margin-top: 1.5rem;
+}
 .container-two {
   width: 100%;
   margin-left: 1.5rem;
@@ -37,6 +40,20 @@ nav {
 
 .section {
   padding: 5rem 0;
+}
+.button-therapy {
+  width: 20.4rem;
+  height: 23.2rem;
+  color: var(--text-color);
+  font: 500 1rem 'DM Sans', sans-serif;
+  border-style: none;
+}
+.button-cuts {
+  width: 20.4rem;
+  height: 23.2rem;
+  color: var(--text-color);
+  font: 500 1rem 'DM Sans', sans-serif;
+  border-style: none;
 }
 .button {
   width: 13.37rem;
@@ -53,6 +70,7 @@ nav {
 .button:hover {
   background: var(--base-color-alt);
 }
+
 .div-button {
   width: 100%;
   height: auto;
