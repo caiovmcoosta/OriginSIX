@@ -18,6 +18,8 @@ img {
 /* ==== ROOT ==== ==== ==== ==== ==== ==== ==== */
 
 :root {
+  --header-heigt: 4.5rem;
+  /*color*/
   --hue: 159;
   /* HSL color mode */
   --base-color: hsl(var(--hue) 36% 57%);

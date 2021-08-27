@@ -2,13 +2,25 @@
 
 #header {
   border-bottom: 1px solid #e4e4e4;
+  display: flex;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 100;
+  background-color: var(--body-color);
+  width: 100%;
 }
 
 nav {
-  height: 4.5rem;
+  height: var(--header-heigt);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+}
+main {
+  margin-top: var(--header-heigt);
 }
 
 .logo {
@@ -20,15 +32,13 @@ nav {
 }
 
 .container {
-  width: 100%;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
-.therapy{
-    margin-top: 1.5rem;
+.therapy {
+  margin-top: 1.5rem;
 }
 .container-two {
-  width: 100%;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
@@ -56,13 +66,12 @@ nav {
   border-style: none;
 }
 .button {
-  width: 13.37rem;
   height: 3.5rem;
   background-color: var(--base-color);
   color: var(--text-color-light);
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
+  padding: 0 2rem;
   border-radius: 0.25rem;
   font: 500 1rem 'DM Sans', sans-serif;
   transition: background 0.3s;

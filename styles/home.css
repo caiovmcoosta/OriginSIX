@@ -1,5 +1,7 @@
 /* ==== HOME ==== ==== ==== ==== ==== ==== ==== */
-
+#home {
+  overflow: hidden;
+}
 #home .container {
   margin: 0;
 }
@@ -33,6 +35,11 @@
   margin-bottom: 1rem;
 }
 
-#home {
-  border-bottom: 1px solid #e4e4e4;
+.divider-1 {
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    hsla(var(--hue), 36%, 57%, 1) 0%,
+    hsla(var(--hue), 65%, 88%, 0.34) 100%
+  );
 }
