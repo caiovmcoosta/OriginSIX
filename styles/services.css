@@ -14,21 +14,23 @@
   position: relative;
   width: 100%;
   height: 100%;
-  margin-bottom: 2rem;
-  margin-top: 1.25rem;
 }
 
 #services .capilar {
-  width: 5rem;
-  height: 5rem;
-  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 1.5rem;
 }
 #services .button-therapy {
   display: grid;
-  justify-content: center;
-  align-items: center;
+}
+#services .therapy-content {
   background-color: var(--body-color);
   border-bottom: 0.5rem solid #69b99d;
+}
+#services .button-therapy .capilar img {
+  width: 5rem;
+  height: 5rem;
 }
 #services .button-cuts {
   display: grid;
